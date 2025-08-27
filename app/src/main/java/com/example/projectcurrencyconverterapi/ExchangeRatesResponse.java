@@ -14,6 +14,10 @@ public class ExchangeRatesResponse {
 
     private Map<String, Double> conversion_rates = new HashMap<>();
 
-    //Métdo publico para acessar as taxas de conversão
+    //Método publico para acessar as taxas de conversão
     //Retorna o mapa contendo as taxas de conversão armazenadas
+    public Map<String, Double> getConversion_rates(){
+        return conversion_rates;
+
+    }
 }
