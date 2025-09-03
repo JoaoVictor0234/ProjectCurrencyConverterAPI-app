@@ -46,33 +46,33 @@ Neste projeto aprendemos algumas funcionalidades e como utilizar o **Git**, ente
 
 ## Imports utilizados e suas funcionalidades
 
--import android.os.Bundle;: A classe Bundle é usada para passar dados entre diferentes componentes do Android, como entre uma atividade e outra. Ela funciona como um "pacote" que armazena informações no formato de chave-valor.
+-**import android.os.Bundle**: A classe Bundle é usada para passar dados entre diferentes componentes do Android, como entre uma atividade e outra. Ela funciona como um "pacote" que armazena informações no formato de chave-valor.
 
--import android.view.View;: A classe View é a classe base para todos os componentes de interface de usuário (UI) em uma tela, como botões, caixas de texto e layouts. Qualquer coisa que você possa ver na tela é uma View ou uma de suas subclasses.
+-**import android.view.View**: A classe View é a classe base para todos os componentes de interface de usuário (UI) em uma tela, como botões, caixas de texto e layouts. Qualquer coisa que você possa ver na tela é uma View ou uma de suas subclasses.
 
--import android.widget.ArrayAdapter;: Essa classe é um adaptador que conecta uma fonte de dados (como uma lista de strings) a uma Spinner (uma lista suspensa) ou a uma ListView. Ela é responsável por criar as views para cada item da lista.
+-**import android.widget.ArrayAdapter**: Essa classe é um adaptador que conecta uma fonte de dados (como uma lista de strings) a uma Spinner (uma lista suspensa) ou a uma ListView. Ela é responsável por criar as views para cada item da lista.
 
--import android.widget.Button;: Representa um botão clicável na interface do usuário.
+-**import android.widget.Button**: Representa um botão clicável na interface do usuário.
 
--import android.widget.EditText;: Representa um campo de texto editável, onde o usuário pode digitar.
+-**import android.widget.EditText**: Representa um campo de texto editável, onde o usuário pode digitar.
 
--import android.widget.Spinner;: Representa uma lista suspensa. Ao clicar nela, uma lista de opções é exibida.
+-**import android.widget.Spinner**: Representa uma lista suspensa. Ao clicar nela, uma lista de opções é exibida.
 
--import android.widget.TextView;: Representa um campo de texto que exibe informações para o usuário, mas que não é editável.
+-**import android.widget.TextView**: Representa um campo de texto que exibe informações para o usuário, mas que não é editável.
 
--import android.widget.Toast;: A classe Toast é usada para exibir uma pequena mensagem pop-up na tela que desaparece automaticamente após um curto período de tempo. É comumente usada para mostrar mensagens de sucesso ou erro.
+-**import android.widget.Toast**: A classe Toast é usada para exibir uma pequena mensagem pop-up na tela que desaparece automaticamente após um curto período de tempo. É comumente usada para mostrar mensagens de sucesso ou erro.
 
--import androidx.appcompat.app.AppCompatActivity;: Esta é uma classe de compatibilidade que herda de Activity. Ela fornece recursos de compatibilidade para garantir que o seu aplicativo funcione em diferentes versões do Android, mantendo um visual consistente. É a classe base para a maioria das atividades em aplicativos Android modernos.
+-**import androidx.appcompat.app.AppCompatActivity**: Esta é uma classe de compatibilidade que herda de Activity. Ela fornece recursos de compatibilidade para garantir que o seu aplicativo funcione em diferentes versões do Android, mantendo um visual consistente. É a classe base para a maioria das atividades em aplicativos Android modernos.
 
--import java.util.List;: Representa uma coleção ordenada de elementos. É usada para armazenar listas de dados, como os itens de uma lista suspensa ou os resultados de uma requisição de rede.
+-**import java.util.List**: Representa uma coleção ordenada de elementos. É usada para armazenar listas de dados, como os itens de uma lista suspensa ou os resultados de uma requisição de rede.
 
--import java.util.Map;: Representa uma coleção de pares de chave-valor. É usada para armazenar dados de forma estruturada, onde cada valor pode ser acessado por uma chave única.
+-**import java.util.Map**: Representa uma coleção de pares de chave-valor. É usada para armazenar dados de forma estruturada, onde cada valor pode ser acessado por uma chave única.
 
--import retrofit2.Call;: A classe Call faz parte da biblioteca Retrofit, que é usada para fazer requisições de rede (como buscar dados de uma API na internet). Uma Call representa uma requisição HTTP que pode ser executada.
+-**import retrofit2.Call**: A classe Call faz parte da biblioteca Retrofit, que é usada para fazer requisições de rede (como buscar dados de uma API na internet). Uma Call representa uma requisição HTTP que pode ser executada.
 
--import retrofit2.Callback;: A interface Callback também é do Retrofit. Ela é usada para lidar com o resultado de uma requisição de rede. O Retrofit chama o método onResponse quando a requisição é bem-sucedida e o método onFailure quando ocorre um erro.
+-**import retrofit2.Callback**: A interface Callback também é do Retrofit. Ela é usada para lidar com o resultado de uma requisição de rede. O Retrofit chama o método onResponse quando a requisição é bem-sucedida e o método onFailure quando ocorre um erro.
 
--import retrofit2.Response;: A classe Response do Retrofit encapsula a resposta de uma requisição HTTP, incluindo o corpo da resposta, o código de status (como 200 OK ou 404 Not Found) e os cabeçalhos.
+-**import retrofit2.Response**: A classe Response do Retrofit encapsula a resposta de uma requisição HTTP, incluindo o corpo da resposta, o código de status (como 200 OK ou 404 Not Found) e os cabeçalhos.
 
 ## Feedback
 
@@ -89,8 +89,10 @@ Se você tiver algum feedback, por favor nos deixe saber por meio de joaovictorb
  - [Status em Desenvolvimento](https://shields.io/badges)
  - [Como escrever um bom README](https://www.alura.com.br/artigos/escrever-bom-readme?srsltid=AfmBOopQoDqk6cMpOZumRez8eltRBUh0m8EBK9kQaq2tYgrFlYJELvIQ)
  - [README de exemplo](https://github.com/rluispdev/ProjectCurrencyConverter?tab=readme-ov-file)
- - [Imports e suas funcionalidades]
-   Android Developers Documentation: (https://developer.android.com/)
+ - **[Referência dos Imports]**
+ Android Developers Documentation: (https://developer.android.com/)  
+ Retrofit GitHub Repository: (https://github.com/square/retrofit)  
+ Oracle Java Documentation: (https://docs.oracle.com/en/java/javase/)
 
 
 
