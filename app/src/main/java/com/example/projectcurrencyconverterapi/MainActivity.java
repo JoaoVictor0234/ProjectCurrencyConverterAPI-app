@@ -72,11 +72,14 @@ public class MainActivity extends AppCompatActivity{
         call.enqueue(new Callback<ExchangeRatesResponse>() {
             @Override
             public void onResponse(Call<ExchangeRatesResponse> call, Response<ExchangeRatesResponse> response) {
-
+                if(response.isSuccessful() && response.body() != null){
+                    taxasDeCambio = response.body().getConversion_rates(); // Armazena as taxas de câmbio
+                }else{ // Exibe mensagens de erro
+                    tvResultado.setText("Erro ao carregar as taxas de câmbio");
+                }
             }
-
             @Override
-            public void onFailure(Call<ExchangeRatesResponse> call, Throwable t) {
+            public void onFailure(Call<ExchangeRatesResponse> call, Throwable t){
 
             }
         });
