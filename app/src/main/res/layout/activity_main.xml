@@ -25,23 +25,26 @@
         android:hint="Digite um valor"
         android:inputType="numberDecimal"
     />
+    <!-- Campo da moeda que irá ser convertida  -->
     <Spinner
         android:id="@+id/spinnerMoedaOrigem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp" />
+    <!-- Campo da moeda convertida -->
     <Spinner
         android:id="@+id/spinnerMoedaDestino"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp" />
+    <!-- Botão com funcionalidade de converter -->
     <Button
         android:id="@+id/btnConverter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Converter" />
-
+    <!-- Campo de resultado -->
     <TextView
         android:id="@+id/tvResultado"
         android:layout_width="match_parent"

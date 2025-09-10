@@ -37,6 +37,4 @@ public class MainActivity extends AppCompatActivity{
         setContentView(R.layout.activity_main);  //Define o layout da atividade
 
     }
-
-
 }
