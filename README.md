@@ -76,6 +76,7 @@ Neste projeto aprendemos algumas funcionalidades e como utilizar o **Git**, ente
 
 ## Array e sua funcionalidade
 Array Adapter = Usado como uma ponte entre dois arquivos, no projeto ele irá vincular o List moedas para os respectivos Spinner.
+
 adapter.setDropDownViewResource = Usado para configurar o adapter para DropDown, assim tornando ele numa espécie de lista para baixo.
 ## Feedback
 
