@@ -74,6 +74,9 @@ Neste projeto aprendemos algumas funcionalidades e como utilizar o **Git**, ente
 
 -**import retrofit2.Response**: A classe Response do Retrofit encapsula a resposta de uma requisição HTTP, incluindo o corpo da resposta, o código de status (como 200 OK ou 404 Not Found) e os cabeçalhos.
 
+## Array e sua funcionalidade
+Array Adapter = Usado como uma ponte entre dois arquivos, no projeto ele irá vincular o List moedas para os respectivos Spinner.
+adapter.setDropDownViewResource = Usado para configurar o adapter para DropDown, assim tornando ele numa espécie de lista para baixo.
 ## Feedback
 
 Se você tiver algum feedback, por favor nos deixe saber por meio de joaovictorbalbino2007@gmail.com
@@ -92,7 +95,8 @@ Se você tiver algum feedback, por favor nos deixe saber por meio de joaovictorb
  - **[Referência dos Imports]**
  Android Developers Documentation: (https://developer.android.com/)  
  Retrofit GitHub Repository: (https://github.com/square/retrofit)  
- Oracle Java Documentation: (https://docs.oracle.com/en/java/javase/)
+ Oracle Java Documentation: (https://docs.oracle.com/en/java/javase/)  
+ Array Adapter: (https://developer.android.com/reference/android/widget/ArrayAdapter)
 
 
 
