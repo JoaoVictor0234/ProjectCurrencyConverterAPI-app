@@ -65,6 +65,21 @@ public class MainActivity extends AppCompatActivity{
     }
     // Método para converter o valor de uma moeda para outra
     private void converterMoeda(){
+        ExchangeRateService service = RetrofitClient.getInstance(); // Obtém a instância do Retrofit do serviço
+        Call<ExchangeRatesResponse> call = service.getExchangeRates("532a6ee2ba742da7756faa6f", "USD"); // Faz a chamada da API
+
+        // Executa a chamada de forma assincrona
+        call.enqueue(new Callback<ExchangeRatesResponse>() {
+            @Override
+            public void onResponse(Call<ExchangeRatesResponse> call, Response<ExchangeRatesResponse> response) {
+
+            }
+
+            @Override
+            public void onFailure(Call<ExchangeRatesResponse> call, Throwable t) {
+
+            }
+        });
 
     }
 
