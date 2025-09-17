@@ -5,19 +5,19 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <TextView
-        android:id="@+id/Titulo"
-        android:text="Conversor de Moedas"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        />
-
 
     <!-- Campo para inserir o valor -->
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Conversor de Moedas"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
     <EditText
         android:id="@+id/etValor"
         android:layout_width="match_parent"
@@ -30,13 +30,13 @@
         android:id="@+id/spinnerMoedaOrigem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="20dp" />
     <!-- Campo da moeda convertida -->
     <Spinner
         android:id="@+id/spinnerMoedaDestino"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="20dp" />
     <!-- Botão com funcionalidade de converter -->
     <Button
         android:id="@+id/btnConverter"
