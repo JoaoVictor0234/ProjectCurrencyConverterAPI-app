@@ -1,5 +1,6 @@
 
-[![Badge em Desenvolvimento](https://img.shields.io/badge/STATUS%20FINALIZADO-%20GREEN)
+![Badge em Desenvolvimento](https://img.shields.io/badge/FINALIZADO-%20GREEN?style=flat-square&label=STATUS&labelColor=gray)
+
 # ProjectCurrencyConverterAPI-app
 
 Este é um projeto de Conversor de Moedas, que irá facilitar a verificação dos valores de outras moedas e converterá a moeda de nossa escolha, agilizando o processo de pesquisa e conversão.
@@ -7,11 +8,11 @@ Este é um projeto de Conversor de Moedas, que irá facilitar a verificação do
 
 ## Demonstração
 
-Neste projeto aprendemos algumas funcionalidades e como utilizar o **Git**, entendendos como funciona comandos basicos como o **Git Init**, **Git Push**, **Git Status** entre outros. Neste projeto contamos com o monitoramento do nosso professor **[@Leonardossrocha](https://github.com/Leonardossrocha)**.
+Neste projeto aprendemos algumas funcionalidades e como utilizar o **Git**, entendendos como funciona comandos básicos como o **Git Init**, **Git Push**, **Git Status**, **Git add .**, entre outros. Neste projeto contamos com o monitoramento do nosso professor **[@Leonardossrocha](https://github.com/Leonardossrocha)**.
 
 ## Funcionalidades
 
-- Convertimento diariamente atualizados.
+- Conversão diariamente atualizadas.
 - Dados verificados.
 - Suporte para ser utilizado em celular e computador.
 
