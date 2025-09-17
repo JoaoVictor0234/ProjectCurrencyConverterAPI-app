@@ -1,7 +1,5 @@
 
-[![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)](https://img.shields.io/badge/STATUS%20FINALIZADO-%20GREEN
-)
-
+[[![Badge em Desenvolvimento](https://img.shields.io/badge/STATUS%20FINALIZADO-%20GREEN)]
 # ProjectCurrencyConverterAPI-app
 
 Este é um projeto de Conversor de Moedas, que irá facilitar a verificação dos valores de outras moedas e converterá a moeda de nossa escolha, agilizando o processo de pesquisa e conversão.
